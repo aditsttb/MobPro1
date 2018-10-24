@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NPM"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nama"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="256dp"
+        tools:text="Password" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Verify Password"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:text="Verify Password" />
+
+    <Button
+        android:id="@+id/btreg"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:text="Register"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="267dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="266dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+
+</android.support.constraint.ConstraintLayout>
